@@ -1,0 +1,10 @@
+/*-----additional-----*/
+a:hover{
+    color: #01996D;
+}
+button:hover{
+    background-color: rgba(204,235,226);;
+    border-color: rgba(204,235,226);
+    color: #01996D;
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+@font-face { font-family: Lato;
+    src: url('/style/fonts/Lato/Lato-Regular.ttf');
+}
+.video-section{
+    margin-top: 4.722vh;
+    width: 100%;
+    height: 85.3704vh;
+    background-color: #245852;
+    display: flex;
+    flex-direction: row;
+}
+.video-section__text-wrap{
+    margin: 28.7037vh 0 0 10.78125vw;
+}
+.video-section__text{
+    height: 21.29629vh;
+    width: 30.2083333vw;
+}
+.video-section__headline{
+    font-family: 'Geogia';
+    font-weight: 700;
+    font-size: 4.725898vh;
+    line-height: 7.3148vh;
+    color: #FFFFFF;
+    margin-bottom: 3.05556vh ;
+}
+.video-section__comment{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.3629vh;
+    line-height: 3.611vh;
+    color: #FFFFFF;
+}
+.video-section__button{
+    margin-top: 5.27778vh ;
+    width: 12.5vw;
+    height: 6.0185vh;
+    background-color: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 1.89vh;
+    line-height: 2.3148vh;
+}
+.video-section__image-preview-wrap .video-section__image-preview{
+    width: 46.65833vw;
+    height: 47.787963vh;
+    border-radius: 16.3326px;
+    margin: 21.2037vh 0 0 1.61458vw;
+
+}
+.video-section__image-preview-wrap{
+    position: relative;
+}
+
+.image-preview__effect{
+    top: 21.2037vh;
+    left: 2vw;
+    width: 46.0vw;
+    height: 47.787963vh;
+    border-radius: 16.3326px;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16.3326px;
+}
+.image-preview__icon-play{
+    width: 4.2109vw;
+    height: 7.48611vh;
+    position:absolute;
+    top: 41.291667vh;
+    left: 23.352083vw;
+    z-index: 3;
+}

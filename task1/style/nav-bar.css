@@ -1,0 +1,64 @@
+/*-------------NAV-BAR------------*/
+@font-face { font-family: Lato;
+    src: url('/style/fonts/Lato/Lato-Regular.ttf');
+}
+.nav{
+width:100%;
+display: flex;
+justify-content: center;
+height: 7.87vh;
+border-bottom: 0.09vh solid #D6D6D6;
+
+}
+.nav-bar{
+width: 100%;
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.nav-bar__logo{
+width: 4.144vw;
+height: 2.596vh;
+margin: 2.807vh 0 2.9296vh  0;
+}
+
+
+.nav-bar__links-wrap{
+width:29vw;
+height: 2.22vh;
+display: flex;
+justify-content: space-around;
+}
+
+.nav-bar__buttons-wrap{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 14.427vw;
+height: 4.72vh;
+}
+.nav-bar__button{
+width: 9.53vw;
+height: 4.72vh;
+background-color: #01996D;
+border-style: none;
+border-radius: 4px;
+color: #FFFFFF;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 1.85vh;
+line-height: 2.22vh;
+text-align: center;
+
+}
+.nav-bar__link{
+font-style: normal;
+text-decoration: none;
+font-family:'Lato';
+font-size: 1.85vh;
+color: #000000;
+font-weight:400;
+line-height: 2.22vh;
+}

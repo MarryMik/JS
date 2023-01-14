@@ -1,0 +1,146 @@
+@font-face { font-family: Lato;
+    src: url('/style/fonts/Lato/Lato-Regular.ttf');
+}
+.card-info{
+    margin: 11.11vh 14.323vw 15.5556vh 14.323vw;
+    width: 71.3541667vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.card-info__left-wrap{
+    margin-right: 4.511vw;
+    position: relative;
+}
+.card-info__photo-wrap{
+    width: 33.265vw;
+    height: 53.0796vh;
+    background-color: rgba(1, 153, 109, 0.2);
+    border-radius: 18.112px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-info__photo{
+    width: 22.27vw;
+    height: 59.356vh;
+    border-radius: 18.1125px;
+    position: absolute;
+    left: 5.058vw;
+}
+.card-info__card{
+    width: 15.424vw;
+    height: 27.21vh;
+    background-color: #FFFFFF;
+    border-radius: 3.72971px;
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+    position: absolute;
+    left: -3.1604vw;
+    top: 32.787vh;
+}
+.card__headline-wrap{
+    width: 6.7989vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.096vh 0 0 4.3396vw;
+}
+.card__headline{
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 1.369vh;
+    line-height: 2.129vh;
+    color: #000000;    
+}
+hr{
+    width: 5.755vw;
+    margin: 0.7102vh 0 0 4.764vw;    
+}
+.card__photo-wrap{
+    margin: 1.2685vh 0 0 6.216vw;
+    border-radius: 50%;
+    width: 2.99vw;
+    height: 5.3185vh;
+    background-color: rgba(1, 153, 109, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+.card__photo{
+    width: 3.632vw;
+    height: 9.644vh;
+    position:absolute;
+    top: -20px;
+    left: -6px;
+}
+.card__name{
+    margin: 0.9667vh 0 0 6.64375vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1276vh;
+    line-height: 1.7592vh;
+    color: #000000;
+}
+.card-descr{
+    margin: 1.874vh 0 0 3.1771vw;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.505vh;
+    line-height: 2.3148vh;
+    color:#000000;
+}
+.card-list{
+    margin: 0 0 2.803vh 3.1771vw;
+    list-style-type: disc;
+}
+li{
+    margin-top: 1.475vh;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.00028vh;
+    line-height: 1.574vh;
+    color:#000000;
+}
+.card-info__tag{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.3629vh;
+    line-height: 3.6111vh;
+    margin-bottom:0.9259vh;
+}
+.card-info__headline{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.725vh;
+    line-height: 7.3148vh;
+    color: #01996D;
+    margin-bottom: 1.85vh;
+    width: 30.5729vw;
+}
+.card-info__descr{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 1.89vh;
+    line-height: 2.87vh;
+    color: #484848;
+    width: 27.604vw;
+    margin-bottom: 3.703vh;
+}
+.card-info__button{
+    background-color: #01996D;
+    color:#FFFFFF;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 1.85vh;
+    text-align: center;
+    align-items: center;
+    width: 11.823vw;
+    height: 6.02vh;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+}

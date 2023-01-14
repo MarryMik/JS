@@ -1,0 +1,74 @@
+/*-------------BIG-PHOTO---------------*/
+@font-face { font-family: Lato;
+    src: url('/style/fonts/Lato/Lato-Regular.ttf');
+}
+.big-photo-wrap{
+    width: 100%;
+    height: 82.87vh;
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: clip;
+
+}
+.big-photo__photo_back{
+    position: absolute;
+    z-index: 1;
+    height: 82.87vh;
+}
+.big-photo__photo_front{
+    position: absolute;
+    left: 10vw;
+    z-index: 2;
+    height: 82.87vh;
+}
+.big-photo__effect-rec{
+    position:absolute;
+    z-index: 3;
+    width: 100%;
+    height: 82.87vh;
+    background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+}
+
+.big-photo__headline-wrap{
+    position:absolute;
+    top: 16vh;
+    left: 14.32vw;
+    z-index: 4;
+    width: 22.917vw;
+    height: 35.56vh;
+   display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+
+}
+.big-photo__headline-main{
+    font-family: 'Georgia';
+    font-style: normal;
+    margin: 0 0 0 0;
+    font-weight: 700;
+    font-size: 6.02vh;
+    line-height: 6.838vh;
+    color: #01996D;
+}
+.big-photo__headline-descr{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 1.85vh;
+    line-height: 2.9vh;
+    color: #484848;
+    margin: 0 0 0 0;
+   /* margin-bottom: 18px;*/
+}
+.big-photo__button{
+    background-color: #01996D;
+    color:#FFFFFF;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 1.85vh;
+    text-align: center;
+    align-items: center;
+    width: 11.823vw;
+    height: 6.02vh;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+}
